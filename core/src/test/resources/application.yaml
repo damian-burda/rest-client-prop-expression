@@ -1,0 +1,5 @@
+quarkus:
+  http:
+    test-port: 0 # use random port
+
+rest-client/mp-rest/url: 'http://localhost:${quarkus.http.test-port}'
